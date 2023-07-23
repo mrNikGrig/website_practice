@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    margin: 0;
 }
 
 button{
@@ -22,11 +22,9 @@ header{
 
 main{
     
-    background-image: url(imgs/main/backgrount.jpg);
+    background: url(imgs/main/backgrount.jpg) no-repeat;
     background-size: 100%;
     white-space: 100%;
-    background-repeat: space;
-
 }
 
 #core-info{
@@ -59,11 +57,11 @@ main{
 
 .good{
     /* background-color: aliceblue; */
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     justify-content: center;
-    padding: 50px;
-    /* flex: 200px; */
+    padding: 5%;
+    /* flex: 200px;  */
 }
 
 footer{
